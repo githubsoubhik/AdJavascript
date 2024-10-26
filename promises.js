@@ -7,9 +7,9 @@ var ans = new Promise((res, rej) =>{
     }
 
 })
-ans. then(()=>{
+ans. then(()=>{   // when resolve
     console.log("resolve done");
 })
-.catch(()=>{
+.catch(()=>{   /// when rject
     console.log("reject");
 })
